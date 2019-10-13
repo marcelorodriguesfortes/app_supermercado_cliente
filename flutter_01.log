@@ -1,0 +1,47 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=42000190fe2073df lib/main.dart
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: Broken pipe, errno = 32), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[!] Flutter (Channel stable, v1.7.8+hotfix.3, on Linux, locale pt_BR.UTF-8)
+    • Flutter version 1.7.8+hotfix.3 at /home/marcelo/Documentos/flutter_linux_v1.7.8+hotfix.3-stable/flutter
+    • Framework revision b712a172f9 (3 weeks ago), 2019-07-09 13:14:38 -0700
+    • Engine revision 54ad777fd2
+    • Dart version 2.4.0
+    ✗ Downloaded executables cannot execute on host.
+      See https://github.com/flutter/flutter/issues/6207 for more information
+      On Debian/Ubuntu/Mint: sudo apt-get install lib32stdc++6
+      On Fedora: dnf install libstdc++.i686
+      On Arch: pacman -S lib32-gcc-libs
+
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.1)
+    • Android SDK at /home/marcelo/Android/Sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 29.0.1
+    • Java binary at: /home/marcelo/Documentos/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b16-5323222)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.4)
+    • Android Studio at /home/marcelo/Documentos/android-studio
+    • Flutter plugin version 37.1.1
+    • Dart plugin version 183.6270
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b16-5323222)
+
+[✓] Connected device (1 available)
+    • SM J120M • 42000190fe2073df • android-arm • Android 5.1.1 (API 22)
+
+! Doctor found issues in 1 category.
+```
