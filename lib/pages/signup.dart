@@ -1,11 +1,8 @@
-import 'package:app_supermercado/commons/loading.dart';
+
 import 'package:app_supermercado/provider/user_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import '../db/users.dart';
-import '../db/auth.dart';
-import 'home.dart';
+
 
 class SignUp extends StatefulWidget {
   @override

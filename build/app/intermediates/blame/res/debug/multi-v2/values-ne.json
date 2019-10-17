@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
+            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/51db6f4f5e1b39a1040a7c6871bf36d4/res/values-ne/values.xml",

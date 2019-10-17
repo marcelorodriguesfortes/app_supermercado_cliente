@@ -5,7 +5,6 @@ import 'package:carousel_pro/carousel_pro.dart';
 import 'package:provider/provider.dart';
 import 'package:app_supermercado/componentes/lista_horizontal.dart';
 import 'package:app_supermercado/componentes/grid_produtos.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:toast/toast.dart';
 import 'busca_produto.dart';
 import 'categorias.dart';
@@ -24,7 +23,6 @@ class HomePage extends StatefulWidget{
 
 class _HomePageState extends State<HomePage>{
 
-  final FirebaseAuth firebaseAuth = FirebaseAuth.instance;
   String _retorno, _value = "";
   Firestore _firestore = Firestore.instance;
   String ref = 'produtos';
@@ -84,6 +82,7 @@ class _HomePageState extends State<HomePage>{
   @override
   Widget build(BuildContext context) {
     final user = Provider.of<UserProvider>(context);
+
     testaConexao();
 
     Widget image_carousel = Container(
@@ -127,7 +126,7 @@ class _HomePageState extends State<HomePage>{
 //            header
             new UserAccountsDrawerHeader(
               accountName: Text('Marcelo Rodrigues', style: TextStyle(color: Colors.white),),
-              accountEmail: Text('marcelo@gmail.com', style: TextStyle(color: Colors.white)),
+              accountEmail: Text(user.user.email, style: TextStyle(color: Colors.white)),
               currentAccountPicture: GestureDetector(
                 child: new CircleAvatar(
                   backgroundColor: Colors.grey,

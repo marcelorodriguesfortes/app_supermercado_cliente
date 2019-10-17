@@ -43,7 +43,6 @@ class _GridProdutosState extends State<GridProdutos>{
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
     //recebendo dados do banco de dados

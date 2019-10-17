@@ -72,6 +72,9 @@ class UserProvider with ChangeNotifier{
     }
   }
 
+  Future<String>getEmailUser(){
+
+  }
 
   Future<bool> changeStatusToSignup(){
     _status = Status.Signup;

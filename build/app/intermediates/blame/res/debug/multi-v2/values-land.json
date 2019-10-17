@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/bd3503c3eb50dc802664d1715c77bea2/res/values-land/values-land.xml",

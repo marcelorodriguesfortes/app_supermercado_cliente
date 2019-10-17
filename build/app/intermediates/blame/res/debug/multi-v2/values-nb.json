@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
+            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/689c2ac1eecbb449ae506787ed5da994/res/values-nb/values.xml",

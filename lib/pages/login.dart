@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../db/auth.dart';
-import '../db/users.dart';
 import '../provider/user_provider.dart';
 
 class Login extends StatefulWidget {
@@ -18,7 +18,14 @@ class _LoginState extends State<Login> {
   TextEditingController _password = TextEditingController();
   bool hidePass = true;
   Auth auth = Auth();
-  UserServices _userServices;
+
+ /*caso o login seja bem sucedido,
+   este método armazena o e-mail do usuário
+  */
+  armazenaDadosLogin() async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString("emailusuario", _email.text);
+  }
 
 
   @override
@@ -28,8 +35,7 @@ class _LoginState extends State<Login> {
 
     return Scaffold(
       key: _key,
-      body: user.status == Status.Authenticating
-          ? Center(child: CircularProgressIndicator()) : ListView( // user.status != Status.Authenticating ? Loading() :
+      body: user.status == Status.Authenticating ? Center(child: CircularProgressIndicator()) : ListView(
         children: <Widget>[
           Container(
             child: Padding(
@@ -46,6 +52,7 @@ class _LoginState extends State<Login> {
                     )
                   ],
                 ),
+
                 child: Form(
                     key: _formKey,
                     child: Column(
@@ -154,6 +161,7 @@ class _LoginState extends State<Login> {
                               child: MaterialButton(
                                 onPressed: () async{
                                   if(_formKey.currentState.validate()){
+                                    armazenaDadosLogin();
                                     if(!await user.signIn(_email.text, _password.text)){
                                       _key.currentState.showSnackBar(SnackBar(content: Text("Sign in failed")));
                                     }

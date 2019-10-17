@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/0c1988e32f2608f76a068585209fc1a5/res/values/values.xml",
@@ -97,6 +97,42 @@
                     }
                 },
                 {
+                    "source": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "347"
+                    },
+                    "to": {
+                        "startLines": "1938",
+                        "startColumns": "4",
+                        "startOffsets": "128270",
+                        "endLines": "1942",
+                        "endColumns": "12",
+                        "endOffsets": "128562"
+                    }
+                },
+                {
+                    "source": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,219,291,355,437,507,627,784,818,919,973,1043",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "108,164,214,286,350,432,502,622,779,813,914,968,1038,1086"
+                    },
+                    "to": {
+                        "startLines": "214,215,454,455,456,457,458,490,492,493,499,501,504,505",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "14292,14350,29306,29356,29428,29492,29574,33539,33740,33897,34733,34917,35095,35165",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "14345,14401,29351,29423,29487,29569,29639,33654,33892,33926,34829,34966,35160,35208"
+                    }
+                },
+                {
                     "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/0d8dc931455674c6ee17ff60e8d5cc98/res/values/values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -152,7 +188,7 @@
                     }
                 },
                 {
-                    "source": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -202,42 +238,6 @@
                         "startOffsets": "7680,22866,22919,22972,23025,148426,148602,148724,148986,149181",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "7764,22914,22967,23020,23073,148487,148719,148780,149047,149243"
-                    }
-                },
-                {
-                    "source": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,169,219,291,355,437,507,627,784,818,919,973,1043",
-                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
-                        "endOffsets": "108,164,214,286,350,432,502,622,779,813,914,968,1038,1086"
-                    },
-                    "to": {
-                        "startLines": "214,215,454,455,456,457,458,490,492,493,499,501,504,505",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "14292,14350,29306,29356,29428,29492,29574,33539,33740,33897,34733,34917,35095,35165",
-                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
-                        "endOffsets": "14345,14401,29351,29423,29487,29569,29639,33654,33892,33926,34829,34966,35160,35208"
-                    }
-                },
-                {
-                    "source": "/home/marcelo/Repositorios/app-supermercado/app_supermercado-master (1)/app_supermercado/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "347"
-                    },
-                    "to": {
-                        "startLines": "1938",
-                        "startColumns": "4",
-                        "startOffsets": "128270",
-                        "endLines": "1942",
-                        "endColumns": "12",
-                        "endOffsets": "128562"
                     }
                 }
             ]

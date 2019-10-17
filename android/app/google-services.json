@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "67845663411-sr46bd80roa4nkf0i9m55k0j3qe0e0cb.apps.googleusercontent.com",
+          "client_id": "67845663411-7brjm9tag3ke9iulhjrg1nigaqjugjom.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.app_supermercado",
-            "certificate_hash": "37c8f158f39065c58e838568879bc524cab3f22a"
+            "certificate_hash": "32ee756556787ab57c2360c843f34ceed2164627"
           }
         },
         {
