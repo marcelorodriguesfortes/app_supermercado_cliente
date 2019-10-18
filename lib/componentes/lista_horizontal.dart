@@ -10,20 +10,32 @@ class ListaHorizontal extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           Category(
+            url_imagem: 'assets/farinaceos.jpeg',
+            categoria_produto: 'Farináceos',
+          ),
+          Category(
+            url_imagem: 'assets/padaria.jpeg',
+            categoria_produto: 'Padaria',
+          ),
+          Category(
+            url_imagem: 'assets/verduras.jpeg',
+            categoria_produto: 'Vegetais',
+          ),
+          Category(
             url_imagem: 'assets/limpeza.jpeg',
             categoria_produto: 'Limpeza',
           ),
           Category(
             url_imagem: 'assets/carne.jpg',
-            categoria_produto: 'Alimentos',
+            categoria_produto: 'Carnes e Frios',
           ),
           Category(
             url_imagem: 'assets/bebidas.png',
             categoria_produto: 'Bebidas',
           ),
           Category(
-            url_imagem: 'assets/vegetais.jpg',
-            categoria_produto: 'Vegetais',
+            url_imagem: 'assets/utilidades.jpeg',
+            categoria_produto: 'Utilidades',
           ),
 
         ],

@@ -15,8 +15,12 @@ class _CategoriasState extends State<Categorias> {
       "picture" : "assets/limpeza.jpeg",
     },
     {
-      "name": "Alimentos",
-      "picture" : "assets/carne.jpg",
+      "name": "Utilidades",
+      "picture" : "assets/utilidades.jpeg",
+    },
+    {
+      "name": "Padaria",
+      "picture" : "assets/padaria.jpeg",
     },
     {
       "name": "Bebidas",
@@ -24,7 +28,15 @@ class _CategoriasState extends State<Categorias> {
     },
     {
       "name": "Vegetais",
-      "picture" : "assets/vegetais.jpg",
+      "picture" : "assets/verduras.jpeg",
+    },
+    {
+      "name": "Farináceos",
+      "picture" : "assets/farinaceos.jpeg",
+    },
+    {
+      "name": "Carnes e Frios",
+      "picture" : "assets/carne.jpg",
     },
   ];
 

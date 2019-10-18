@@ -86,15 +86,14 @@ class _HomePageState extends State<HomePage>{
     testaConexao();
 
     Widget image_carousel = Container(
-        height: 200.0,
+        height: 230.0,
         child: new Carousel(
           boxFit: BoxFit.cover,
           images:[
             AssetImage('assets/image2.jpg'),
-            AssetImage('assets/image3.jpg'),
-            AssetImage('assets/image.jpg'),
-            AssetImage('assets/image4.jpg'),
-            AssetImage('assets/image5.jpg'),
+            AssetImage('assets/outdoor1.jpg'),
+            AssetImage('assets/outdoor2.png'),
+            AssetImage('assets/outdoor3.jpg'),
           ],
           autoplay: true,
           autoplayDuration: const Duration(seconds: 3),
