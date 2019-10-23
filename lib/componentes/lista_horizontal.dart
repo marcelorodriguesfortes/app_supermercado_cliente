@@ -22,16 +22,16 @@ class ListaHorizontal extends StatelessWidget {
             categoria_produto: 'Vegetais',
           ),
           Category(
-            url_imagem: 'assets/limpeza.jpeg',
-            categoria_produto: 'Limpeza',
+            url_imagem: 'assets/bebidas.png',
+            categoria_produto: 'Bebidas',
           ),
           Category(
             url_imagem: 'assets/carne.jpg',
             categoria_produto: 'Carnes e Frios',
           ),
           Category(
-            url_imagem: 'assets/bebidas.png',
-            categoria_produto: 'Bebidas',
+            url_imagem: 'assets/limpeza.jpeg',
+            categoria_produto: 'Limpeza',
           ),
           Category(
             url_imagem: 'assets/utilidades.jpeg',

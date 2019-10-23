@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "C:\\backup\\repositorios\\repositorio-app-supermercado-cliente\\app_supermercado_cliente\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/c21fbb8280f33c707b94ae8c86f5201f/res/values-v17/values-v17.xml",
+                    "source": "C:\\Users\\Marcelo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.2.aar\\74f2462837c1af79f9ffb855af39acaf\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

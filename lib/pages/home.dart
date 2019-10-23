@@ -111,9 +111,16 @@ class _HomePageState extends State<HomePage>{
         backgroundColor: Colors.lightBlue,
         actions: <Widget>[
           IconButton(icon: (
-              Icon(Icons.search, color: Colors.white)),
+              Icon(Icons.camera_alt, color: Colors.white)),
             onPressed:(){
-                showSearch(context: context, delegate: DataSearch());
+              lerCodigoDeBarras();
+                //showSearch(context: context, delegate: DataSearch());
+            },
+          ),
+          IconButton(icon: (
+              Icon(Icons.shopping_cart, color: Colors.white)),
+            onPressed:(){
+              Navigator.push(context,MaterialPageRoute(builder: (context) => Favoritos()));
             },
           ),
         ],

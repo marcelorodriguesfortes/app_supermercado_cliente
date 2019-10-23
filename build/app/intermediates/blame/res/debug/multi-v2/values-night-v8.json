@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marcelo/Repositorios/app_supermercado_cliente/app_supermercado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\backup\\repositorios\\repositorio-app-supermercado-cliente\\app_supermercado_cliente\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/marcelo/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/c21fbb8280f33c707b94ae8c86f5201f/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Marcelo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.2.aar\\74f2462837c1af79f9ffb855af39acaf\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

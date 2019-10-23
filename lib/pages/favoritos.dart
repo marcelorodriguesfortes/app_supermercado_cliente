@@ -20,7 +20,7 @@ class _FavoritosState extends State<Favoritos> {
     return Scaffold(
       appBar: new AppBar(
         iconTheme: IconThemeData(color: Colors.white),
-        title: Text("Favoritos", style: TextStyle(color: Colors.white ),),
+        title: Text("Carrinho de compras", style: TextStyle(color: Colors.white ),),
         backgroundColor: Colors.lightBlue,
       ),
 

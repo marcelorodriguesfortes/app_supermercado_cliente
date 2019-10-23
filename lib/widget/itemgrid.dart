@@ -116,7 +116,7 @@ class _ItemGridState extends State<ItemGrid> {
                               children: <Widget>[
                                 IconButton(
                                   iconSize: 30,
-                                  icon: Icon(isLiked ? Icons.favorite : Icons.favorite_border, color: Colors.blue, size: 20.0,),
+                                  icon: Icon(isLiked ? Icons.shopping_cart : Icons.add_shopping_cart, color: Colors.blue, size: 20.0,),
                                   onPressed: () {
                                     if(isLiked){
                                       _favoritoDAO.excluirProdutoFavorito(widget.usuario, widget.id);
